@@ -39,3 +39,14 @@ A simple laravel API example to show CRUD operations
 * Update a task
 
   Put `$domain/api/tasks/{id}` insert `name` field in body and select `x-www-form-urlencoded`.
+
+### Personal log ###
+* Test tasks CRUD using Postman
+* Replicate for users CRUD
+> cd apiexample
+> subl .
+> edit api.php for CRUD
+> Test CRUD using Postman
+* SQLdump the db
+>  /usr/local/mysql/bin/mysqldump -u apitestuser -h 127.0.0.1  -p --databases apitestdb >apitestdb.sql 
+
