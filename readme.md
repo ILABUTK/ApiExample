@@ -9,7 +9,7 @@ A simple laravel API example to show CRUD operations
 * `composer install`
 * `cp .env.example .env`
 * `php artisan key:generate`
-* Create a database and inform *.env* (e.g., use MySQL Workbench to create an `apitestdb` db and a user `apitestuser/apitestuser!` and grant schema privilleges). 
+* Create a database and inform *.env* (e.g., use MySQL Workbench to create an `apitestdb` db and a user `apitestuser/apitestuser!` and grant schema privilleges @xplipro1). (@xplipro2: db on ilabdb. name: dev_apitestdb; dev_apitestuser/dev_apitestuser! ./mysql -u root -p -h ilabdb.engr.utk.edu)
 * `php artisan migrate` to create tables
 * `php artisan serve` to start the app on http://localhost:8000/ or config a web server to start the app
 
